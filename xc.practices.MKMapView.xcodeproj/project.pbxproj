@@ -13,6 +13,8 @@
 		ACD5A5CD2381ADC100F85643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD5A5CC2381ADC100F85643 /* Assets.xcassets */; };
 		ACD5A5D02381ADC100F85643 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD5A5CF2381ADC100F85643 /* Preview Assets.xcassets */; };
 		ACD5A5D32381ADC100F85643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD5A5D12381ADC100F85643 /* LaunchScreen.storyboard */; };
+		ACD5A5DB2381AE0100F85643 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5A5DA2381AE0100F85643 /* MapView.swift */; };
+		ACD5A5DD2381F65100F85643 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5A5DC2381F65100F85643 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ACD5A5CF2381ADC100F85643 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACD5A5D22381ADC100F85643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACD5A5D42381ADC100F85643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD5A5DA2381AE0100F85643 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		ACD5A5DC2381F65100F85643 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		ACD5A5BA2381ADBE00F85643 = {
 			isa = PBXGroup;
 			children = (
+				ACD5A5DA2381AE0100F85643 /* MapView.swift */,
+				ACD5A5DC2381F65100F85643 /* CircleImage.swift */,
 				ACD5A5C52381ADBE00F85643 /* xc.practices.MKMapView */,
 				ACD5A5C42381ADBE00F85643 /* Products */,
 			);
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD5A5C72381ADBE00F85643 /* AppDelegate.swift in Sources */,
+				ACD5A5DB2381AE0100F85643 /* MapView.swift in Sources */,
 				ACD5A5C92381ADBE00F85643 /* SceneDelegate.swift in Sources */,
 				ACD5A5CB2381ADBE00F85643 /* ContentView.swift in Sources */,
+				ACD5A5DD2381F65100F85643 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
